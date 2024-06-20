@@ -1,4 +1,5 @@
 import importlib
+import traceback
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -30,15 +31,18 @@ def handle_request(version, module, function):
 
     except ModuleNotFoundError as e:
         error_message = f"Module not found: {str(e)}"
-        return jsonify({"error": error_message}), 404
+        error_detail = traceback.format_exc()
+        return jsonify({"error": error_message, "details": error_detail}), 404
 
     except AttributeError as e:
         error_message = f"Attribute error: {str(e)}"
-        return jsonify({"error": error_message}), 404
+        error_detail = traceback.format_exc()
+        return jsonify({"error": error_message, "details": error_detail}), 404
 
     except Exception as e:
         error_message = f"Unexpected error: {str(e)}"
-        return jsonify({"error": error_message}), 500
+        error_detail = traceback.format_exc()
+        return jsonify({"error": error_message, "details": error_detail}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
