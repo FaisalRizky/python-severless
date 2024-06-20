@@ -1,10 +1,44 @@
-from flask import Flask, jsonify
+import importlib
+from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+app.json.sort_keys = False
 
 @app.route('/')
 def index():
-    return jsonify({"message": "Hello, Vercel!"})
+    return jsonify({
+        "status": "healthy",
+        "version": "1.0.0",
+        "description": "API is running smoothly"
+    })
+
+@app.route('/medical/<version>/<module>/<function>', methods=['GET'])
+def handle_request(version, module, function):
+    # Create module path
+    module_path = f"medical.{version}.{module}.{function}"
+
+    try:
+        # Import the module dynamically
+        module = importlib.import_module(module_path)
+        
+        # Check if the main function exists in the module
+        if hasattr(module, 'main'):
+            # Call the function and return its result
+            return module.main()
+        else:
+            raise AttributeError(f"Function 'main' not found in module '{module_path}'")
+
+    except ModuleNotFoundError as e:
+        error_message = f"Module not found: {str(e)}"
+        return jsonify({"error": error_message}), 404
+
+    except AttributeError as e:
+        error_message = f"Attribute error: {str(e)}"
+        return jsonify({"error": error_message}), 404
+
+    except Exception as e:
+        error_message = f"Unexpected error: {str(e)}"
+        return jsonify({"error": error_message}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
