@@ -2,14 +2,15 @@
 import sys
 import os
 from bs4 import BeautifulSoup
-from lib.html_data_utils import get_data_url
+from helper.html_data_utils import get_data_url
 
 def get_data():
     # Get the path of the current script file, this will use for mock data purpose
     script_path = os.path.realpath(__file__)
    
     # Get Url
-    url = 'https://rstebet.co.id/jadwal-dokter/'
+    # url = 'https://rstebet.co.id/jadwal-dokter/'
+    url = ""
 
     # Get Html Content
     html_content = get_data_url(url, script_path)

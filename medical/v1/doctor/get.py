@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 import importlib
 import pkgutil
-from lib.response_utils import build_success_response
+from helper.response_utils import build_success_response
 from medical.v1.doctor.core.typeB import __path__ as typeB_path
 
 app = Flask(__name__)
