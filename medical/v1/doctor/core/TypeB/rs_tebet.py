@@ -1,13 +1,18 @@
-# medical/doctor/v1/core/TypeB/rs_tebet.py
+# medical/doctor/v1/core/typeB/rs_tebet.py
 import sys
+import os
 from bs4 import BeautifulSoup
+from lib.html_data_utils import get_data_url
 
 def get_data():
-    url = 'C:/Users/e2pay/Downloads/test-scrap.html'  # Path to your local HTML file
+    # Get the path of the current script file, this will use for mock data purpose
+    script_path = os.path.realpath(__file__)
+   
+    # Get Url
+    url = 'https://rstebet.co.id/jadwal-dokter/'
 
-    # Open the local file and read its contents
-    with open(url, 'r', encoding='utf-8') as file:
-        html_content = file.read()
+    # Get Html Content
+    html_content = get_data_url(url, script_path)
 
     # Parse the HTML content
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -61,6 +66,8 @@ def build_data(schedule_element, speciality_name):
                 results.append({
                     'doctor_name': row_data[0],
                     'speciality': speciality_name,
+                    'hospital_name': "RS TEBET", #This from name file
+                    'hospital_type': "Type B", #This from name file
                     'schedule': schedule_data
                 })
 

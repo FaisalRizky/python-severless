@@ -1,4 +1,4 @@
-# medical/doctor/v1/core/TypeB/__init__.py
+# medical/doctor/v1/core/typeB/__init__.py
 import pkgutil
 import importlib
 

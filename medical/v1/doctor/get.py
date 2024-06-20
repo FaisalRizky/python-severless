@@ -2,18 +2,18 @@ from flask import Flask, jsonify
 import importlib
 import pkgutil
 from lib.response_utils import build_success_response
-from medical.v1.doctor.core.TypeB import __path__ as typeB_path
+from medical.v1.doctor.core.typeB import __path__ as typeB_path
 
 app = Flask(__name__)
 
 def get_doctors_schedule():
     data = None
     
-    # Dynamically load and call the get_data function from each module in TypeB
+    # Dynamically load and call the get_data function from each module in typeB
     for module_info in pkgutil.iter_modules(typeB_path):
         if module_info.ispkg:
             continue
-        module_name = f"medical.v1.doctor.core.TypeB.{module_info.name}"
+        module_name = f"medical.v1.doctor.core.typeB.{module_info.name}"
         module = importlib.import_module(module_name)
         if hasattr(module, 'get_data'):
             module_data = module.get_data()
