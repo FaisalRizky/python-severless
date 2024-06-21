@@ -85,7 +85,7 @@ def extract_row_data(row):
     return row_data
 
 def mapping_to_days(data):
-    keys = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+    keys = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
     result = {}
     default_value = "-"
 
