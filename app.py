@@ -1,9 +1,11 @@
 import importlib
+import os
 import traceback
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template, send_from_directory
+from flask_cors import CORS
 
 app = Flask(__name__)
-app.json.sort_keys = False
+CORS(app)  # Enable CORS for all routes
 
 @app.route('/')
 def index():
@@ -43,6 +45,18 @@ def handle_request(module, version, submodule, function):
         error_message = f"Unexpected error: {str(e)}"
         error_detail = traceback.format_exc()
         return jsonify({"error": error_message, "details": error_detail.splitlines()}), 500
+
+@app.route('/apidocs')
+def api_docs():
+    return render_template('apidocs.html')
+
+@app.route('/swagger.json', methods=['GET'])
+def swagger_spec():
+    # Serve swagger.json file from the 'static' directory
+    try:
+        return send_from_directory(os.path.join(app.root_path, 'static'), 'swagger.json')
+    except FileNotFoundError:
+        return jsonify({"error": "swagger.json not found"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)

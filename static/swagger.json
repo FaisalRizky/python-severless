@@ -1,0 +1,124 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Web Scrapping playground",
+    "description": "This API documentation is solely for experimental and playground purposes. All scraping will be performed on plain HTML served from local storage rather than directly from URLs, as it is on a development server. However, once in a production environment, it will scrape from real websites.",
+    "contact": {
+      "email": "isalriz9@gmail.com"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "",
+      "description": "SwaggerHub API Auto Mocking"
+    },
+    {
+      "url": "http://localhost:5000",
+      "description": "Local"
+    },
+    {
+      "url": "https://py-severless.vercel.app/",
+      "description": "development"
+    }
+  ],
+  "paths": {
+    "/medical/v1/doctor/get": {
+      "get": {
+        "tags": [
+          "Doctor Module"
+        ],
+        "summary": "Get List of Doctors Schedule",
+        "description": "Returns a list of doctors with their schedules",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "success"
+                    },
+                    "message": {
+                      "type": "string",
+                      "example": "Data retrieved successfully"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "doctor_name": {
+                            "type": "string",
+                            "example": "dr. Tommy P. Sibuea, Sp.PD.,FINASIM"
+                          },
+                          "speciality": {
+                            "type": "string",
+                            "example": "Klinik Spesialis Penyakit Dalam"
+                          },
+                          "hospital_name": {
+                            "type": "string",
+                            "example": "RS TEBET"
+                          },
+                          "hospital_type": {
+                            "type": "string",
+                            "example": "Type B"
+                          },
+                          "schedule": {
+                            "type": "object",
+                            "properties": {
+                              "monday": {
+                                "type": "string",
+                                "example": "13.00-15.00"
+                              },
+                              "tuesday": {
+                                "type": "string",
+                                "example": "13.00-15.00"
+                              },
+                              "wednesday": {
+                                "type": "string",
+                                "example": "13.00-15.00"
+                              },
+                              "thursday": {
+                                "type": "string",
+                                "example": "13.00-15.00"
+                              },
+                              "friday": {
+                                "type": "string",
+                                "example": "13.00-15.00"
+                              },
+                              "saturday": {
+                                "type": "string",
+                                "example": "-"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Invalid input, object invalid"
+          },
+          "404": {
+            "description": "No data"
+          },
+          "500": {
+            "description": "Server error"
+          }
+        }
+      }
+    }
+  }
+}
