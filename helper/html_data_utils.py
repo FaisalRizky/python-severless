@@ -83,5 +83,5 @@ def get_path_mock_data(calling_path):
     file_location = calling_path.replace(root_dir, "")
     file_location = file_location.replace(".py", ".html")
     # Join Final mock data location
-    final_file_location = root_dir + "\\data" + file_location
+    final_file_location = root_dir + "/data" + file_location
     return final_file_location
