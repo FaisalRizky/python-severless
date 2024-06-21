@@ -2,14 +2,14 @@ import os
 from os.path import dirname, abspath, join
 import requests
 from dotenv import load_dotenv
-from helper.logger_utils import setup_logger
+# from helper.logger_utils import setup_logger
 
 # Load environment variables from .env file
 load_dotenv()
 
 # Setup logger with a specific log file path in the log directory
-log_file_path = 'log/logger_utils.log'  # This will place the log file in the log directory
-logger = setup_logger(log_file_path)
+# log_file_path = 'log/logger_utils.log'  # This will place the log file in the log directory
+# logger = setup_logger(log_file_path)
 
 def get_data_url(url=None, calling_path=None):
     """
@@ -36,7 +36,7 @@ def get_data_url(url=None, calling_path=None):
         
         file_mock_data_path = get_path_mock_data(calling_path)
 
-        logger.info(f"Fetch data from: {file_mock_data_path}")
+        # logger.info(f"Fetch data from: {file_mock_data_path}")
         
         # Path to local HTML file in development environment
         file_path = os.path.join(file_mock_data_path)
@@ -78,12 +78,9 @@ def get_path_mock_data(calling_path):
     current_dir = dirname(abspath(__file__))
     # Get Root Dir
     root_dir = os.path.dirname(current_dir)
-    print("Root Dir "+root_dir)
-    print("Root Dir Calling Path "+calling_path)
     # Get Calling script Relative Path
     file_location = calling_path.replace(root_dir, "")
     file_location = file_location.replace(".py", ".html")
-    print("Relative Path "+root_dir)
     # Join Final mock data location
     final_file_location = root_dir + "/data" + file_location
     return final_file_location

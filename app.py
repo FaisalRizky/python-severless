@@ -13,10 +13,10 @@ def index():
         "description": "API is running smoothly"
     })
 
-@app.route('/medical/<version>/<module>/<function>', methods=['GET'])
-def handle_request(version, module, function):
+@app.route('/<module>/<version>/<submodule>/<function>', methods=['GET'])
+def handle_request(module, version, submodule, function):
     # Create module path
-    module_path = f"medical.{version}.{module}.{function}"
+    module_path = f"{module}.{version}.{submodule}.{function}"
 
     try:
         # Import the module dynamically
