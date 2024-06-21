@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request, render_template, send_from_directory
 from flask_cors import CORS
 
 app = Flask(__name__)
+app.json.sort_keys = False
 CORS(app)  # Enable CORS for all routes
 
 @app.route('/')
