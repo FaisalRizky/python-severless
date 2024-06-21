@@ -1,9 +1,14 @@
 import os
 import requests
 from dotenv import load_dotenv
+from helper.logger_utils import setup_logger
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Setup logger with a specific log file path in the log directory
+log_file_path = 'log/logger_utils.log'  # This will place the log file in the log directory
+logger = setup_logger(log_file_path)
 
 def get_data_url(url=None, calling_path=None):
     """
@@ -29,6 +34,8 @@ def get_data_url(url=None, calling_path=None):
             return None
         
         file_mock_data_path = get_path_mock_data(calling_path)
+
+        logger.info(f"Fetch data from: {file_mock_data_path}")
         
         # Path to local HTML file in development environment
         file_path = os.path.join(file_mock_data_path)

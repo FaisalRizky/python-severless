@@ -9,8 +9,7 @@ def get_data():
     script_path = os.path.realpath(__file__)
    
     # Get Url
-    # url = 'https://rstebet.co.id/jadwal-dokter/'
-    url = ""
+    url = 'https://rstebet.co.id/jadwal-dokter/'
 
     # Get Html Content
     html_content = get_data_url(url, script_path)

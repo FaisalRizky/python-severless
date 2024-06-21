@@ -32,17 +32,17 @@ def handle_request(version, module, function):
     except ModuleNotFoundError as e:
         error_message = f"Module not found: {str(e)}"
         error_detail = traceback.format_exc()
-        return jsonify({"error": error_message, "details": error_detail}), 404
+        return jsonify({"error": error_message, "details": error_detail.splitlines()}), 404
 
     except AttributeError as e:
         error_message = f"Attribute error: {str(e)}"
         error_detail = traceback.format_exc()
-        return jsonify({"error": error_message, "details": error_detail}), 404
+        return jsonify({"error": error_message, "details": error_detail.splitlines()}), 404
 
     except Exception as e:
         error_message = f"Unexpected error: {str(e)}"
         error_detail = traceback.format_exc()
-        return jsonify({"error": error_message, "details": error_detail}), 500
+        return jsonify({"error": error_message, "details": error_detail.splitlines()}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)
