@@ -77,7 +77,7 @@ def get_path_mock_data(calling_path):
     # Get the path of the current script file, this will use for mock data purpose
     current_dir = dirname(abspath(__file__))
     # Get Root Dir
-    root_dir = current_dir.replace('\\helper', "")
+    root_dir = os.path.dirname(current_dir)
     print("Root Dir "+root_dir)
     print("Root Dir Calling Path "+calling_path)
     # Get Calling script Relative Path
@@ -86,4 +86,4 @@ def get_path_mock_data(calling_path):
     print("Relative Path "+root_dir)
     # Join Final mock data location
     final_file_location = root_dir + "/data" + file_location
-    return root_dir
+    return final_file_location
