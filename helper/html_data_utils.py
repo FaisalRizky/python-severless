@@ -88,7 +88,7 @@ def get_path_mock_data(calling_path):
         get_calling_relative_path = os.path.join(*calling_path[common_length:])
 
         # Construct the absolute path
-        calling_path[0] = calling_path[0] +"\\" 
+        # calling_path[0] = calling_path[0] +"\\" 
         absolute_path = os.path.join(*calling_path[:common_length])
 
         # Construct Relative Path -- All mock content on root data folder with extension .html
