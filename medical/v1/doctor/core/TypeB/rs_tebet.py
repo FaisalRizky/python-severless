@@ -3,6 +3,7 @@ import sys
 import os
 from bs4 import BeautifulSoup
 from helper.html_data_utils import get_data_url
+from helper.logger_utils import write_response_from_scrap
 
 def get_data():
     # Get the path of the current script file, this will use for mock data purpose
@@ -19,6 +20,9 @@ def get_data():
 
     # Get Doctor Speciality Schedule
     speciality_schedule = get_speciality_schedule(soup)
+
+     # Write Data result
+    write_response_from_scrap(speciality_schedule, script_path)
 
     # Return the JSON formatted results
     return speciality_schedule

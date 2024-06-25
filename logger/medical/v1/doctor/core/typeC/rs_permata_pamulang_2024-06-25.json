@@ -1,0 +1,1322 @@
+[
+    {
+        "doctor_name": "Prof. DR. dr. Soedjatmiko, Sp.A (K), Msi",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "17.00-21.00",
+            "wednesday": "-",
+            "thursday": "17.00-21.00",
+            "friday": "17.00-21.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Siti Rozanah, Sp.A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "11.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Djundu\u2019ah, Sp.A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "15.00-17.00",
+            "tuesday": "19.00-20.00",
+            "wednesday": "15.00-17.00",
+            "thursday": "14.00-17.00",
+            "friday": "14.00-17.00",
+            "saturday": "15.00-19.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Etty Christiati, Sp.A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "10.00-12.30",
+            "tuesday": "10.00-12.30",
+            "wednesday": "10.00-12.30",
+            "thursday": "10.00-12.30",
+            "friday": "10.00-12.30",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Stephanie, Sp. A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "Cuti",
+            "wednesday": "-",
+            "thursday": "Cuti",
+            "friday": "-",
+            "saturday": "Cuti",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Dwi Kartika Putriasih, Sp. A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-12.00",
+            "tuesday": "09.00-12.00",
+            "wednesday": "09.00-12.00",
+            "thursday": "09.00-12.00",
+            "friday": "10.00-13.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Dwi Miranti Anggraini, Sp. A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "12.30-14.30",
+            "tuesday": "12.30-14.30",
+            "wednesday": "12.30-14.30",
+            "thursday": "12.30-14.30",
+            "friday": "12.30-14.30",
+            "saturday": "09.00-11.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. I.B Eka Utama Widja, Sp. A",
+        "speciality": "Dokter Spesialis Anak",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "15.00-20.00",
+            "tuesday": "-",
+            "wednesday": "15.00-20.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "09.00-11.00",
+            "sunday": "09.00-11.00"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Herry Wardani, Sp.B",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-11.00",
+            "tuesday": "-",
+            "wednesday": "09.00-11.00",
+            "thursday": "-",
+            "friday": "09.00-11.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Edwin M. Kamil Sp.B, FinaCS",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Cuti",
+            "tuesday": "Cuti",
+            "wednesday": "Cuti",
+            "thursday": "Cuti",
+            "friday": "Cuti",
+            "saturday": "Cuti",
+            "sunday": "Cuti"
+        }
+    },
+    {
+        "doctor_name": "dr. Rizki Zuchri, Sp.B",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "13.00-16.00",
+            "wednesday": "-",
+            "thursday": "13.00-16.00",
+            "friday": "-",
+            "saturday": "13.00-16.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. R. Diky Laksmana, Sp.B, FICS",
+        "speciality": "Dokter Spesialis Bedah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "14:00-17:00",
+            "tuesday": "08:00-11:00",
+            "wednesday": "14:00-17:00",
+            "thursday": "08:00-11:00",
+            "friday": "14:00-17:00",
+            "saturday": "08:00-11:00",
+            "sunday": "10:00-12:00"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Dokter Spesialis Syaraf",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Hastari Soekardi, Sp.S",
+        "speciality": "Dokter Spesialis Syaraf",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "20.00-21.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "19.00-20.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Marwatal Hutadjulu, Sp. N",
+        "speciality": "Dokter Spesialis Syaraf",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "16.00-18.00",
+            "wednesday": "-",
+            "thursday": "16.00-17.00",
+            "friday": "-",
+            "saturday": "16.00-17.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Taufik Zain, Sp.OG (K)",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-11.00",
+            "tuesday": "09.00-11.00",
+            "wednesday": "09.00-11.00",
+            "thursday": "09.00-11.00",
+            "friday": "09.00-11.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Tety Ernawati, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "14.00-15.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "14.00-15.00",
+            "saturday": "15.00-16.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. M. Rejani, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "08.00-10.00",
+            "tuesday": "08.00-10.00",
+            "wednesday": "08.00-20.00",
+            "thursday": "08.00-20.00",
+            "friday": "08.00-20.00",
+            "saturday": "08.00-14.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Neni Anggraini, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "10.00-13.00",
+            "tuesday": "10.00-13.00",
+            "wednesday": "10.00-13.00",
+            "thursday": "10.00-13.00",
+            "friday": "10.00-13.00",
+            "saturday": "10.00-13.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Imelda Fitria Boer, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "13.00-15.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "13.00-15.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Indra Wahyu Ali, Sp.KO, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "12.00-13.00",
+            "wednesday": "-",
+            "thursday": "12.00-13.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Agus Sunarto, Sp.OG",
+        "speciality": "Dokter Spesialis Kandungan",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "17.00-19.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Khaira Utia Yusrie, Sp.PD-KGEH, FINASIM",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "19.00-20.00",
+            "tuesday": "-",
+            "wednesday": "19.00-20.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. E. Mudjaddid, Sp.PD,K-Psi, FINASIM",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "18.00-20.00",
+            "wednesday": "-",
+            "thursday": "18.00-20.00",
+            "friday": "-",
+            "saturday": "18.00-20.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Tito Ardi Suwandoko, Sp.PD, FINASIM",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "14.00-18.00",
+            "tuesday": "10.00-13.00",
+            "wednesday": "14.00-18.00",
+            "thursday": "10.00-13.00",
+            "friday": "10.00-13.00 & 19.00-21.00*",
+            "saturday": "10.00-13.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Serina Citra Iswari, Sp.PD",
+        "speciality": "Spesialis Penyakit Dalam",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-12.00",
+            "tuesday": "14.00-17.00",
+            "wednesday": "09.00-12.00",
+            "thursday": "-",
+            "friday": "13.00-16.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Dokter Spesialis Paru",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Dokter Spesialis Paru",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Yenni Sari Siregar, Sp.P",
+        "speciality": "Dokter Spesialis Paru",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "15.00-17.00",
+            "tuesday": "15.00-17.00",
+            "wednesday": "15.00-17.00",
+            "thursday": "-",
+            "friday": "15.00-17.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Dr. dr. Mukhtar Ikhsan, Sp.P(K), MARS",
+        "speciality": "Dokter Spesialis Paru",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "08.00-10.00",
+            "wednesday": "08.00-10.00",
+            "thursday": "08.00-10.00",
+            "friday": "-",
+            "saturday": "08.00-10.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Orthopedi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Orthopedi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. A. Arya Abikara, Sp. OT SubSp.CO (K), FICS, FISQua,FIPP, AIFO \u2013 K, FICOT",
+        "speciality": "Spesialis Orthopedi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "13.00-15.00",
+            "tuesday": "12.00-14.00",
+            "wednesday": "12.00-14.00;",
+            "thursday": "13.00-15.00",
+            "friday": "12.00-14.00",
+            "saturday": "12.00-14.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Hamdan, Sp.OT, MD, FICS, FIPP",
+        "speciality": "Spesialis Orthopedi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "14.00-15.00",
+            "tuesday": "10.00-13.00",
+            "wednesday": "10.00-13.00",
+            "thursday": "14.00-15.00",
+            "friday": "10.00-13.00",
+            "saturday": "14.00-15.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Kulit kelamin",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Kulit kelamin",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Putri Ramadhani Lubis, Sp.KK",
+        "speciality": "Spesialis Kulit kelamin",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "13.15-14.30",
+            "tuesday": "13.15-14.30",
+            "wednesday": "9.30-11.30",
+            "thursday": "13.15-14.30",
+            "friday": "12.00-13.30",
+            "saturday": "12.30-14.30",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Febrina Andarini, Sp. DV",
+        "speciality": "Spesialis Kulit kelamin",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-12.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "09.00-12.00",
+            "friday": "-",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Silfia Mandasari Sp.DV",
+        "speciality": "Spesialis Kulit kelamin",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "19.00-21.00",
+            "wednesday": "19.00-21.00",
+            "thursday": "19.00-21.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Jenni. B.Ultrisza",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "cuti",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "cuti",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Sri Junani",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "09.00-12.00",
+            "friday": "-",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Seri Moesiwatiningsih",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-12.00",
+            "tuesday": "09.00-12.00",
+            "wednesday": "09.00-12.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Fiqqa Hendrayekti",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "17.00-20.00",
+            "friday": "17.00-20.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Esti Puspita Sari",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "17.00-20.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Anastasia Ririen P.",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "13.00-16.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "13.00-16.00",
+            "saturday": "13.00-16.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Fathriany Wiranti",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "17.00-20.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "13.00-16.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Dila Mesiana",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "17.00-20.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "13.00-16.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Rr. Audi Sri Endah P.",
+        "speciality": "Gigi Umum",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "17.00-20.00",
+            "wednesday": "13.00-16.00",
+            "thursday": "-",
+            "friday": "09.00-14.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Gigi Spesialis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Gigi Spesialis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Vastya Ihsani, Sp.KG",
+        "speciality": "Gigi Spesialis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "13.00-16.00",
+            "thursday": "-",
+            "friday": "17.00-20.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Destiana Nur Fithri, Sp. BM",
+        "speciality": "Gigi Spesialis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "13:00-16:00",
+            "wednesday": "13:00-16:00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Esti Puspita Sari, Sp.Ortho",
+        "speciality": "Gigi Spesialis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "17.00-20.00",
+            "wednesday": "17.00-20.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Mata",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Elisabeth Srisubekti, Sp.M",
+        "speciality": "Spesialis Mata",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "09.00-11.00",
+            "wednesday": "14.00-16.00",
+            "thursday": "-",
+            "friday": "12.00-14.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Elisabeth Irma Dewi K, Sp.M",
+        "speciality": "Spesialis Mata",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "13.00-15.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Siti Asfani,Sp M",
+        "speciality": "Spesialis Mata",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "10.00-12.00",
+            "tuesday": "-",
+            "wednesday": "10.00-12.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis THT",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis THT",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Adila Hisyam, Sp.THT-KL",
+        "speciality": "Spesialis THT",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "10.00-12.00",
+            "wednesday": "-",
+            "thursday": "10.00-12.00",
+            "friday": "15.00-17.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Bintari Nareswari, Sp. THT-KL",
+        "speciality": "Spesialis THT",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "14.00-16.00",
+            "tuesday": "-",
+            "wednesday": "12.00-14.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "13.00-15.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. M. Akbar, Sp. THT-KL",
+        "speciality": "Spesialis THT",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "19.00-21.00",
+            "tuesday": "19.00-21.00",
+            "wednesday": "19.00-21.00",
+            "thursday": "19.00-21.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Jantung dan Pembuluh Darah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Jantung dan Pembuluh Darah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Retna Dewayani, Sp. JP (K), FSCAI",
+        "speciality": "Spesialis Jantung dan Pembuluh Darah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "16.00-18.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Adhi Kurniawan, Sp.JP, FIHA",
+        "speciality": "Spesialis Jantung dan Pembuluh Darah",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "15.00-17.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "08.00-11.00",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Rehabilitasi Medis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Rehabilitasi Medis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Agus Prasetyo, Sp.KFR, AIFO-K",
+        "speciality": "Spesialis Rehabilitasi Medis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "19.00-21.00",
+            "tuesday": "19.00-21.00",
+            "wednesday": "-",
+            "thursday": "19.00-21.00",
+            "friday": "-",
+            "saturday": "11.00-13.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Maulana Kurniawan B., Sp. KFR",
+        "speciality": "Spesialis Rehabilitasi Medis",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-11.00",
+            "tuesday": "09.00-11.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "09.00-11.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Radiologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Radiologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Galuh Ayu Treswari, Sp.Rad (K), RA",
+        "speciality": "Spesialis Radiologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "18.00-20.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "18.00-20.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Sri Dewi Imayanti, Sp. Rad",
+        "speciality": "Spesialis Radiologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "07.00-09.00",
+            "wednesday": "07.00-09.00",
+            "thursday": "-",
+            "friday": "07.00-09.0",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Reinard Junizar, Sp. Rad",
+        "speciality": "Spesialis Radiologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "09.00-11.00",
+            "tuesday": "-",
+            "wednesday": "10.00-12.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "10.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "",
+        "speciality": "Spesialis Urologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Senin",
+        "speciality": "Spesialis Urologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Selasa",
+            "tuesday": "Rabu",
+            "wednesday": "Kamis",
+            "thursday": "Jumat",
+            "friday": "Sabtu",
+            "saturday": "Minggu",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Roberto Hamonangan Sinaga, Sp. U",
+        "speciality": "Spesialis Urologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "16.00 \u2013 18.30",
+            "tuesday": "09.00 \u2013 12.00",
+            "wednesday": "16.00 \u2013 18.30",
+            "thursday": "16.00 \u2013 18.30",
+            "friday": "16.00 \u2013 18.30",
+            "saturday": "13.00 \u2013 15.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Spesialis Kesehatan Jiwa",
+        "speciality": "Spesialis Urologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "Senin",
+            "tuesday": "Selasa",
+            "wednesday": "Rabu",
+            "thursday": "Kamis",
+            "friday": "Jumat",
+            "saturday": "Sabtu",
+            "sunday": "Minggu"
+        }
+    },
+    {
+        "doctor_name": "Dr. Ukuh Tri Anjarsari, Sp. KJ",
+        "speciality": "Spesialis Urologi",
+        "hospital_name": "RS PERMATA PAMULANG",
+        "hospital_type": "Type C",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "16.00 \u2013 18.30",
+            "friday": "-",
+            "saturday": "09.00 \u2013 13.00",
+            "sunday": "-"
+        }
+    }
+]

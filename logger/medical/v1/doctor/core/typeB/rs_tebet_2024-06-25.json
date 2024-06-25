@@ -1,0 +1,662 @@
+[
+    {
+        "doctor_name": "dr. Tommy P. Sibuea, Sp.PD.,FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Dalam",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "13.00-15.00",
+            "tuesday": "13.00-15.00",
+            "wednesday": "13.00-15.00",
+            "thursday": "13.00-15.00",
+            "friday": "13.00-15.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Sorta Berliana Sibuea, Sp.PD., FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Dalam",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "08.00-14.00",
+            "tuesday": "08.00-14.00",
+            "wednesday": "08.00-14.00",
+            "thursday": "08.00-14.00",
+            "friday": "08.00-14.00",
+            "saturday": "Perjanjian",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Mulyani A.S. Gultom, Sp.PD., FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Dalam",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "10.00-13.00",
+            "tuesday": "10.00-13.00",
+            "wednesday": "10.00-13.00",
+            "thursday": "10.00-13.00",
+            "friday": "10.00-13.00",
+            "saturday": "Perjanjian",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Murniyati S.E.S.Legrans, Sp.PD, FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Dalam",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "14.00-19.00",
+            "tuesday": "14.00-19.00",
+            "wednesday": "14.00-19.00",
+            "thursday": "14.00-19.00",
+            "friday": "14.00-19.00",
+            "saturday": "12.00-15.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Renti Woro Sismiastuti, Sp.PD",
+        "speciality": "Klinik Spesialis Penyakit Dalam",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "09.00-14.00",
+            "tuesday": "14.00-19.00",
+            "wednesday": "14.00-19.00",
+            "thursday": "09.00-14.00",
+            "friday": "14.00-19.00",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Puteri Wahyuni, Sp.PD, KGH, FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Dalam Konsultan Ginjal Hipertensi",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "11.00-13.00",
+            "wednesday": "11.00-13.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Asril Bahar, Sp.PD.,K-P.,K-Ger",
+        "speciality": "Klinik Spesialis Penyakit Dalam Konsultan Pulmonologi & Geriatri",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "16.00-17.00",
+            "tuesday": "16.00-17.00",
+            "wednesday": "-",
+            "thursday": "16.00-17.00",
+            "friday": "16.00-17.00",
+            "saturday": "11.00-selesai",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Dharmika Djojoningrat, Sp.PD, KGEH, FINASIM",
+        "speciality": "Klinik Spesialis Penyakit Hati & Saluran  Cerna",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "09.00-11.30",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "09.00-11.30",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Luhut Parsaulian, Sp.OG",
+        "speciality": "Klinik Spesialis Kebidanan & Kandungan",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "15.00-18.00",
+            "tuesday": "-",
+            "wednesday": "15.00-18.00",
+            "thursday": "15.00-18.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Herdinda Erudite Rizkinya, Sp.OG",
+        "speciality": "Klinik Spesialis Kebidanan & Kandungan",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "17.00-20.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "17.00-20.00",
+            "saturday": "11.00-13.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. RM Denny Dhanardono, MPH&TM, SpOG, K-FER",
+        "speciality": "Klinik Spesialis Kebidanan & Kandungan",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "09.00-12.00",
+            "tuesday": "09.00-12.00",
+            "wednesday": "09.00-12.00",
+            "thursday": "09.00-12.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Hartatiningsih S., Sp.A",
+        "speciality": "Klinik Spesialis Kesehatan Anak",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "13.00-16.00",
+            "tuesday": "13.00-15.00",
+            "wednesday": "13.00-16.00",
+            "thursday": "13.00-15.00",
+            "friday": "13.00-16.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Rr. Kartika Dwi Septieningtyas, Sp.A",
+        "speciality": "Klinik Spesialis Kesehatan Anak",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "11.00-12.00",
+            "tuesday": "11.00-12.00",
+            "wednesday": "11.00-12.00",
+            "thursday": "-",
+            "friday": "11.00-12.00",
+            "saturday": "11.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Sumarwoto, Sp.A",
+        "speciality": "Klinik Spesialis Kesehatan Anak",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "14.00-18.00",
+            "wednesday": "-",
+            "thursday": "09.00-12.00",
+            "friday": "-",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Pulung M Silalahi, Sp.A",
+        "speciality": "Klinik Spesialis Kesehatan Anak",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "14.00-16.00",
+            "tuesday": "-",
+            "wednesday": "14.00-16.00",
+            "thursday": "-",
+            "friday": "14.00-16.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Olany Ture Sibuea, Sp.M",
+        "speciality": "Klinik Spesialis Mata",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "14.00-15.00",
+            "wednesday": "14.00-15.00",
+            "thursday": "14.00-15.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Chitra Wulan Dari, Sp.M",
+        "speciality": "Klinik Spesialis Mata",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "09.00-12.00",
+            "wednesday": "09.00-12.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Hadi Purnomo, Sp.JP(K)",
+        "speciality": "Klinik Spesialis Jantung dan Pembuluh",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "09.00-13.00",
+            "tuesday": "12.00-15.00",
+            "wednesday": "09.00-13.00",
+            "thursday": "09.00-13.00",
+            "friday": "13.00-15.00",
+            "saturday": "09.00-13.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Ayub Basaldi Nugraha R., Sp.JP",
+        "speciality": "Klinik Spesialis Jantung dan Pembuluh",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "10.30-14.30",
+            "tuesday": "-",
+            "wednesday": "12.30-16.30",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "Prof. DR. Dr. Aryono Djuned Pusponegoro, Sp.B.,KBD.",
+        "speciality": "Klinik Spesialis Bedah Digestive",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "p e r j a n j i a n",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Cahyo Novianto, Sp.B(K)Onk, Msi,Med",
+        "speciality": "Klinik Spesialis Bedah Onkologi",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "16.00-selesai",
+            "tuesday": "16.00-selesai",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Soemitha Bisma Djaja, Sp.BP-RE",
+        "speciality": "Klinik Spesialis Bedah Plastik",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "p e r j a n j i a n",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Hendri Andreas, Sp.BP-RE",
+        "speciality": "Klinik Spesialis Bedah Plastik",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "p e r j a n j i a n",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Keni Istasaputri Mardiana, Sp.KK",
+        "speciality": "Klinik Spesialis Kulit & Kelamin",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "15.00-selesai",
+            "tuesday": "-",
+            "wednesday": "16.00-selesai",
+            "thursday": "-",
+            "friday": "10.00-selesai",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Silviani Sri Rahayu, SpDV",
+        "speciality": "Klinik Spesialis Kulit & Kelamin",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "16.00-18.00",
+            "tuesday": "16.00-18.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Katrin Nada, Sp.KJ",
+        "speciality": "Klinik Spesialis Kedokteran Jiwa",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "09.00-11.00",
+            "wednesday": "-",
+            "thursday": "09.00-11.00",
+            "friday": "-",
+            "saturday": "09.00-11.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Muhammad Hafiz, Sp.P(K)",
+        "speciality": "Klinik Spesialis Paru",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "13.30-15.30",
+            "thursday": "-",
+            "friday": "13.30-15.30",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Welly Tanjung, Sp.S",
+        "speciality": "Klinik Spesialis Syaraf",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "10.30-11.30",
+            "tuesday": "-",
+            "wednesday": "10.30-11.30",
+            "thursday": "10.30-11.30",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Clara Krishanti Koestoer, Sp.S",
+        "speciality": "Klinik Spesialis Syaraf",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "12.00-14.00",
+            "wednesday": "14.00-16.00",
+            "thursday": "12.00-14.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Riyan Adi Kurnia, Sp.U",
+        "speciality": "Klinik Spesialis Urologi",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "08.00-11.00",
+            "wednesday": "-",
+            "thursday": "08.00-11.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Donny Giovanni, Sp.U",
+        "speciality": "Klinik Spesialis Urologi",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "08.00-14.00",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "08.00-14.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Nuzwar Noer, Sp.THT-KL",
+        "speciality": "Klinik Spesialis THT",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "10.00 - 12.00",
+            "tuesday": "-",
+            "wednesday": "10.00 - 12.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Shofiah Sari, Sp.THT-KL",
+        "speciality": "Klinik Spesialis THT",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "13.00-15.00",
+            "wednesday": "-",
+            "thursday": "13.00-15.00",
+            "friday": "14.00-16.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. Djulaica Wachjuni, Sp.KFR",
+        "speciality": "Klinik Rehabilitasi Medik",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "17.00-18.00",
+            "friday": "-",
+            "saturday": "09.00-11.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "dr. I Dewa Ketut Sidharta, Sp.An, FIPM",
+        "speciality": "Klinik Nyeri",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "16.00-selesai",
+            "tuesday": "16.00-selesai",
+            "wednesday": "-",
+            "thursday": "16.00-selesai",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Emyda Djauhari Siregar, Sp.Ort.",
+        "speciality": "Klinik Gigi Spesialis",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "12.30-15.00",
+            "wednesday": "-",
+            "thursday": "12.30-15.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg.Nur Fadhilah Amir Hamzah M., Sp.KG",
+        "speciality": "Klinik Gigi Spesialis",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "10.00-13.00",
+            "tuesday": "16.00-18.00",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Dewi Fatma",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "18.00-20.00",
+            "thursday": "18.00-20.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Irma Rasyid",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "12.30-15.30",
+            "thursday": "-",
+            "friday": "12.30-15.30",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Dessy Aries Santy",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "16.30-19.00",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Kusyola Constanty",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "09.00-12.00",
+            "wednesday": "-",
+            "thursday": "09.00-12.00",
+            "friday": "-",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Rivai Arief",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "09.00-12.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Gabriela Lintang C.",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "-",
+            "thursday": "-",
+            "friday": "-",
+            "saturday": "13.00-16.00",
+            "sunday": "-"
+        }
+    },
+    {
+        "doctor_name": "drg. Alvira Aniqa Nadila",
+        "speciality": "Klinik Gigi Umum",
+        "hospital_name": "RS TEBET",
+        "hospital_type": "Type B",
+        "schedule": {
+            "monday": "-",
+            "tuesday": "-",
+            "wednesday": "09.00-11.00",
+            "thursday": "-",
+            "friday": "16.00-18.00",
+            "saturday": "-",
+            "sunday": "-"
+        }
+    }
+]
