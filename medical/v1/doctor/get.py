@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 def get_doctors_schedule():
     data_list = []
-    # # Dynamically load and call the get_data function from each module in typeB
+    # Dynamically load and call the get_data function from each module in typeB
     for module_info in pkgutil.iter_modules(typeB_path):
         if module_info.ispkg:
             continue
