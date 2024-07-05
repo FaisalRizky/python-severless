@@ -104,13 +104,14 @@ def build_data(datas):
             # Extract schedule data
             schedule_data = mapping_to_days(schedule[1:])
             doctor_name = schedule[0]
-            results.append({
-                'doctor_name': doctor_name,
-                'speciality': speciality_name,
-                'hospital_name': "RS PERMATA PAMULANG",  # This is from the file name
-                'hospital_type': "Type C",  # This is from the file name
-                'schedule': schedule_data
-            })
+            if doctor_name != "" and doctor_name != "Senin":
+                results.append({
+                    'doctor_name': doctor_name,
+                    'speciality': speciality_name,
+                    'hospital_name': "RS PERMATA PAMULANG",  # This is from the file name
+                    'hospital_type': "Type C",  # This is from the file name
+                    'schedule': schedule_data
+                })
 
     return results
 

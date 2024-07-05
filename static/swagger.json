@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Web Scrapping playground",
+    "title": "Web Scrapping Playground",
     "description": "This API documentation is solely for experimental and playground purposes. All scraping will be performed on plain HTML served from local storage rather than directly from URLs, as it is on a development server. However, once in a production environment, it will scrape from real websites.",
     "contact": {
       "email": "isalriz9@gmail.com"
@@ -23,7 +23,7 @@
     },
     {
       "url": "https://py-severless.vercel.app/",
-      "description": "development"
+      "description": "Development"
     }
   ],
   "paths": {
@@ -34,6 +34,28 @@
         ],
         "summary": "Get List of Doctors Schedule",
         "description": "Returns a list of doctors with their schedules",
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Hospital Type(A, B, C, D)",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "example": "B"
+            }
+          },
+          {
+            "name": "hospital_name",
+            "in": "query",
+            "description": "Optional requery parameter",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "RS TEBET"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successful response",
