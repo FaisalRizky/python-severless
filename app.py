@@ -16,7 +16,7 @@ def index():
         "description": "API is running smoothly"
     })
 
-@app.route('/<module>/<version>/<submodule>/<function>', methods=['GET'])
+@app.route('/<module>/<version>/<submodule>/<function>', methods=['GET', 'Delete'])
 def handle_request(module, version, submodule, function):
     # Create module path
     module_path = f"{module}.{version}.{submodule}.{function}"

@@ -141,6 +141,40 @@
           }
         }
       }
+    },
+    "/medical/v1/doctor/delete": {
+      "delete": {
+        "tags": [
+          "Doctor Module"
+        ],
+        "summary": "Remove Old Cache Files",
+        "description": "Deletes all cache files except for those with today's date.",
+        "responses": {
+          "200": {
+            "description": "Successful cleanup",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "example": "success"
+                    },
+                    "message": {
+                      "type": "string",
+                      "example": "Old cache files removed successfully."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server error"
+          }
+        }
+      }
     }
   }
 }

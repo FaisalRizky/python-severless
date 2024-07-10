@@ -1,6 +1,9 @@
 from flask import Flask, jsonify, request
 import importlib
 import pkgutil
+import os
+import json
+from datetime import datetime
 from helper.response_utils import build_success_response
 from medical.v1.doctor.core.typeA import __path__ as typeA_path
 from medical.v1.doctor.core.typeB import __path__ as typeB_path
@@ -23,6 +26,16 @@ def get_module_details(hospital_type):
     else:
         return None, None
 
+# Function to check if the log file for the current date exists
+def check_log_file(module_name, filename):
+    """Check if the log file for the current date exists."""
+    log_dir = f"logger/{module_name.replace('.', '/')}"
+    if not os.path.exists(log_dir):
+        return None
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    log_file = os.path.join(log_dir, f"{filename}_{current_date}.json")
+    return log_file if os.path.exists(log_file) else None
+
 # Function to load and process modules, filtering data based on hospital name if provided
 def load_and_process_modules(module_name, path, hospital_name, data_list):
     """Load and process modules, optionally filtering by hospital name."""
@@ -30,16 +43,26 @@ def load_and_process_modules(module_name, path, hospital_name, data_list):
         if module_info.ispkg:
             continue
         full_module_name = f"{module_name}.{module_info.name}"
-        module = importlib.import_module(full_module_name)
-        if hasattr(module, 'get_data'):
-            module_data = module.get_data()
-            if module_data:
-                if hospital_name:
-                    # Filter data to include only items where hospital_name is like the specified hospital_name
-                    filtered_data = [item for item in module_data if hospital_name.lower() in item.get('hospital_name', '').lower()]
-                    data_list.extend(filtered_data)
-                else:
-                    data_list.extend(module_data)
+        log_file = check_log_file(module_name, module_info.name)
+        if log_file:
+            with open(log_file, 'r') as f:
+                module_data = json.load(f)
+            data_list.extend(module_data)
+        else:
+            module = importlib.import_module(full_module_name)
+            if hasattr(module, 'get_data'):
+                module_data = module.get_data()
+                if module_data:
+                    if hospital_name:
+                        # Filter data to include only items where hospital_name is like the specified hospital_name
+                        filtered_data = [item for item in module_data if hospital_name.lower() in item.get('hospital_name', '').lower()]
+                        data_list.extend(filtered_data)
+                    else:
+                        data_list.extend(module_data)
+                    # Save the data to the log file for future use
+                    os.makedirs(os.path.dirname(log_file), exist_ok=True)
+                    with open(log_file, 'w') as f:
+                        json.dump(module_data, f)
 
 # Function to process modules based on given parameters, dynamically load if not specified
 def process_modules(module_name=None, path=None, hospital_name=None):
