@@ -1,4 +1,4 @@
-# medical/doctor/v1/core/typeB/rs_tebet.py
+# medical/doctor/v1/core/typeC/rs_permata_pamulang.py
 import sys
 import os
 from bs4 import BeautifulSoup
