@@ -47,7 +47,12 @@ def load_and_process_modules(module_name, path, hospital_name, data_list):
         if log_file:
             with open(log_file, 'r') as f:
                 module_data = json.load(f)
-            data_list.extend(module_data)
+            if hospital_name:
+                # Filter data to include only items where hospital_name is like the specified hospital_name
+                filtered_data = [item for item in module_data if hospital_name.lower() in item.get('hospital_name', '').lower()]
+                data_list.extend(filtered_data)
+            else:
+                data_list.extend(module_data)
         else:
             module = importlib.import_module(full_module_name)
             if hasattr(module, 'get_data'):
@@ -59,10 +64,6 @@ def load_and_process_modules(module_name, path, hospital_name, data_list):
                         data_list.extend(filtered_data)
                     else:
                         data_list.extend(module_data)
-                    # Save the data to the log file for future use
-                    os.makedirs(os.path.dirname(log_file), exist_ok=True)
-                    with open(log_file, 'w') as f:
-                        json.dump(module_data, f)
 
 # Function to process modules based on given parameters, dynamically load if not specified
 def process_modules(module_name=None, path=None, hospital_name=None):
